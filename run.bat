@@ -1,0 +1,1 @@
+start java -Djava.util.logging.config.file=logging.properties -Djgroups.bind_addr=127.0.0.1 -cp inter-or-jgroups-3.6.16-0.0.1-SNAPSHOT-jar-with-dependencies.jar testinteror.jgroups.TestAppJgroups 7777 127.0.0.1 && exit
